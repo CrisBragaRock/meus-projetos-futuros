@@ -1,0 +1,90 @@
+/*FORMATAÇÃO GERL*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*FOMRATAÇÃO DO CORPO*/
+
+body{
+    background-color: #0a0a0a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*FORMATAÇÃO DE CABEÇALHO*/
+
+header{
+    height: 25vh;
+    width: 100%;
+    background-image: url(../imagens/banner.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+/*FORMATAÇÃO DE MENU*/
+
+nav{
+    color: white;
+    width: 70%;
+    margin: auto;
+    max-width: 800px;
+    padding-left: 25px ;
+}
+
+nav a, a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.link-contato{
+    float: right;
+    padding-right: 25px;
+}
+
+nav div.clear{
+    clear: both;
+}
+
+/*FORMATAÇÃO DE CONTEUDO*/
+
+main{
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff6c;
+    color: white;
+    border-radius: 5px;
+}
+
+main h1{
+    color: #352cb6;
+    text-align: center;
+}
+
+main p{
+    padding: 15px 15px 7.5px 15px;
+}
+
+main section article img{
+    width: 45%;
+}
+
+main section article{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    margin: auto;    
+    color: lightgray;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    background-color: #0a0a0a;
+}
